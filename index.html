@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>AO Char.ini Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #121212;
+            color: #e8eaed;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <p>by Walker Millgress</p>
+    <script>
+        var name = prompt("Please write the name of the character's folder.");
+        var showname = prompt("Please write the showname of the character.");
+        var gender = prompt("Please write your character's gender (or the name of the blip file).");
+        var i;
+        var Emotes = parseInt(prompt("Please write the number of emotes that your character has."));
+
+        document.write("[Options]<br>name = "+name+"<br>showname = "+showname+"<br>side = wit<br>gender = "+gender+"<br>");
+
+        document.write("<br>[Emotions]<br>number = "+Emotes+"<br>");
+
+        for (i = 1; i <= Emotes; i++) {
+            document.write(i+" = #-#"+i+"#0<br>");
+        }
+    </script>
+</body>
