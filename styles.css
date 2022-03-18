@@ -1,0 +1,28 @@
+body {
+    background-color: #121212;
+    color: #e8eaed;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1vw;
+}
+
+#char-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label, input {
+    flex-basis: 20%;
+}
+
+.side {
+    background-color: #3b3b3b;
+    flex-grow: 1;
+    padding: 2em;
+    flex-basis: 40%;
+}
