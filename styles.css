@@ -26,3 +26,12 @@ label, input {
     padding: 2em;
     flex-basis: 40%;
 }
+
+#show-side {
+    height: 62vh;
+    overflow-y: scroll;
+}
+
+nav {
+    padding: 2em;
+}
